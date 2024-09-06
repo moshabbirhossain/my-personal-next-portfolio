@@ -12,7 +12,7 @@ export default function Hero() {
                         Moshabbir Hossain
                     </h1>
                     <p className="mb-8 md:pl-0  pl-2 pr-2 leading-relaxed dark:text-gray-300">
-                        Front-end | React | Nextjs Developer
+                        Front-End | JavaSrcipt | React | Nextjs Developer
                     </p>
                     <div className="flex justify-center">
                         {/* <a href="#"
@@ -27,6 +27,35 @@ export default function Hero() {
                 <div className="lg:max-w-lg lg:w-full mb-5 md:mb-0 md:w-1/2 w-3/6">
                     <img className="object-cover object-center rounded-full shadow-base-200" alt="hero" src="https://i.ibb.co/KrFF2LP/MyImage.jpg" />
                 </div>
+            </div>
+            <div className="max-w-4xl mx-auto my-10">
+                <dl className="rounded-lg flex justify-between items-center">
+                    <div className="flex flex-col p-6 text-center">
+                        <dt className="order-2 mt-2 text-lg tracking-tighter font-medium text-gray-500">
+                            Of work tracked on <br /> Upwork only
+                        </dt>
+                        <dd className="order-1 text-5xl font-bold text-gray-700">+50h</dd>
+                    </div>
+                    <div
+                        className="flex flex-col border-t p-6 text-center">
+                        <dt className="order-2 mt-2 text-lg tracking-tighter font-medium text-gray-500">
+                            Projects Delivered <br />since 2021
+                        </dt>
+                        <dd className="order-1 text-5xl font-bold text-gray-700">+30</dd>
+                    </div>
+                    <div className="flex flex-col border-t p-6 text-center">
+                        <dt className="order-2 mt-2 text-lg tracking-tighter font-medium text-gray-500">
+                            Successfull Jobs <br /> Completed Rate
+                        </dt>
+                        <dd className="order-1 text-5xl font-bold text-gray-700">~90%</dd>
+                    </div>
+                    <div className="flex flex-col p-6 text-center">
+                        <dt className="order-2 mt-2 text-lg tracking-tighter font-medium text-gray-500">
+                            Stars Average Rated <br /> Work
+                        </dt>
+                        <dd className="order-1 text-5xl font-bold text-gray-700">4.5</dd>
+                    </div>
+                </dl>
             </div>
         </div>
     )

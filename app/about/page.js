@@ -1,9 +1,10 @@
 import React from 'react';
+import Skills from '../components/Skills/Skills';
 
 const About = () => {
     return (
         <div className='text-center'>
-            This is about page
+            <Skills />
         </div>
     );
 };

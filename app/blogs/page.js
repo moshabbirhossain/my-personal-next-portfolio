@@ -1,9 +1,10 @@
 import React from 'react'
 
 export default function Blogs() {
+    throw new Error("Error encountered in blogs page")
   return (
     <div>
-      <h1 className='text-center'>This is blog page</h1>
+      
     </div>
   )
 }

@@ -25,7 +25,9 @@ export default function RootLayout({ children }) {
       <body
         className="{`${geistSans.variable} ${geistMono.variable} antialiased`} bg-white"
       >
-        <Navbar />
+        <div className="bg-base-200">
+          <Navbar />
+        </div>
         <div className="min-h-screen  py-20 px-6">
           {children}
         </div>
